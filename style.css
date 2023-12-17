@@ -20,3 +20,22 @@ ul li{
     list-style: none;
     padding: 0 13px;
 }
+ul li a{
+    color: white;
+}
+ul li a:hover{
+    color: rgb(139, 139, 139);
+}
+main{
+    min-height: 90vh;
+}
+footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+}
