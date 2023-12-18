@@ -20,7 +20,31 @@
         </nav>
     </header>
     <main>
-        main area
+        <div class="container">
+            <h1>Enter your email to validate</h1>
+            <form action="/submit" method="post">
+                
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+                <br><br>
+            
+                
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <br><br>
+            
+                
+                <label>Gender:</label>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+                <br><br>
+           
+                <input type="submit" value="Submit">
+              </form>
+            </form>
+        </div>
 
     </main>
     <footer>
