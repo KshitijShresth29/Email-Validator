@@ -38,6 +38,11 @@ main{
     margin: auto;
     padding: 15px;
 }
+.container h1{
+    padding: 12px 0;
+
+}
+
 footer{
     background-color: black;
     color: white;
@@ -60,6 +65,9 @@ footer{
     }
     .logo{
         padding: 6px 0;
+    }
+    .logo span{
+        font-size: 20px;
     }
     .logo img{
         width: 15px;
