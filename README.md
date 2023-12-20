@@ -1,4 +1,5 @@
 # Email-Validator
 An email validator using the emailvalidation.io api!
 
-![image](https://github.com/KshitijShresth29/Email-Validator/assets/145615126/572760db-15b2-41b4-84f5-adb19c478c5d)
+![image](https://github.com/KshitijShresth29/Email-Validator/assets/145615126/25931cff-c9ef-40b3-a716-c10f3ef2bbc6)
+
