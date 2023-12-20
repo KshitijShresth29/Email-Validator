@@ -74,3 +74,6 @@ footer{
         filter: invert(1);
     }
 }
+#resultcont div{
+    text-transform: uppercase;
+}
