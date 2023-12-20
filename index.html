@@ -13,9 +13,8 @@
         <nav>
             <div class="logo">
                 <img src="email.svg" alt="">
-                
-                
-                <span>Email Validator</span></div>
+                <span>Email Validator</span>
+            </div>
             <ul>
                 <li><a href="/">Home</a></li>
                 <li><a href="/">About</a></li>
@@ -27,41 +26,23 @@
         <div class="container">
             <h1>Enter your email to validate</h1>
             <form action="/submit" method="post">
-                
                 <label for="username">Username:</label>
                 <input type="text" id="username" name="username" required>
                 <br><br>
-            
-                
-                <label for="password">Password:</label>
-                <input type="password" id="password" name="password" required>
-                <br><br>
-            
-                
-                <label>Gender:</label>
-                <input type="radio" id="male" name="gender" value="male">
-                <label for="male">Male</label>
-                <input type="radio" id="female" name="gender" value="female">
-                <label for="female">Female</label>
-                <br><br>
-           
-                <input type="submit" value="Submit">
-              </form>
+
+
+                <input id="submitBtn" class="btn" type="submit" value="Submit">
             </form>
         </div>
         <div class="container">
-            <h2>your results</h2>
-            <div id="resultcont">
-
-            </div>
+            <h2>Your results</h2>
+            <div id="resultcont"></div>
         </div>
     </main>
     <footer>
         This is a footer
-
-
     </footer>
     <script src="script.js"></script>
 </body>
 
-</html>    
+</html>
